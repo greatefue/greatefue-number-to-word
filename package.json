@@ -1,0 +1,77 @@
+{
+  "name": "greatefue-datewizard",
+  "version": "1.0.4",
+  "description": "A Package which transform date to a friendly sentence etc.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"**\\*.ts\""
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "AUTHORS.txt",
+    "CONTRIBUTING.md",
+    "HISTORY.md"
+  ],
+  "keywords": [
+    "time",
+    "date",
+    "datetime",
+    "format",
+    "parse",
+    "timestamp",
+    "friendly",
+    "human",
+    "humanize",
+    "readable",
+    "duration",
+    "ago",
+    "pretty",
+    "timespan",
+    "chat",
+    "front-end"
+  ],
+  "author": "Great Efue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greatefue/greatefue-datewizard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatefue/greatefue-datewizard.git",
+    "directory": "greatefue-datewizard"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": ""
+  },
+  "homepage": "https://github.com/greatefue/greatefue-datewizard#readme",
+  "engines": {
+    "node": "^10.12.0 || >=12.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Great Efue",
+      "email": "greatefue@gmail.com",
+      "url": "https://github.com/greatefue"
+    },
+    {
+      "name": "Temitope Afolabi",
+      "email": "afolabitemitope78@gmail.com",
+      "url": "https://github.com/d-sonofman"
+    }
+  ],
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.19.0",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.22.0"
+  }
+}
